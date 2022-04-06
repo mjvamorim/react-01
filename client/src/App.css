@@ -1,7 +1,9 @@
-body {
-  text-align: center;
-}
-button {
-  font-size: calc(10px + 2vmin);
-  margin: 8px;
-}
+.main {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  padding-bottom: 100px; /* height of your footer */
+ }
+ .footer {
+   min-height: 60px;
+  width: 100%;
+ }
+
