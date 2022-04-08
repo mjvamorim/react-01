@@ -1,5 +1,14 @@
 import express from 'express';
+import 'reflect-metadata';
 
 const app = express();
 
-app.listen(5000, () => console.log("Server is running"));
+app.get('/', (request, response) =>
+  response.json({
+    message: 'Meu server Express, Typescript e ESLint!',
+  }),
+);
+
+app.listen(3333, () => {
+  console.log('Back-end started in 3333 port!');
+});
