@@ -1,0 +1,5 @@
+###Passo a passo
+yarn init  -y
+yarn add express
+yarn add ts-node-dev @types/express -D
+tsc --init
