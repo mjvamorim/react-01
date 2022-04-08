@@ -17,3 +17,9 @@ yarn add reflect-metadata
 yarn add @types/node -D
 yarn add mysql2
 
+yarn tyeorm init
+
+
+1. Run `yarn ` command
+2. Setup database settings inside `data-source.ts` file
+3. Run `npm start` command
